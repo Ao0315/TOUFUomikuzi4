@@ -1,1 +1,197 @@
-# TOUFUomikuzi4
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="https://Ao0315.github.io/TOUFUomikuzi4/style.css" />
+</head>
+<script>
+    window.onbeforeunload = function () {
+  return "リロード禁止です！";
+};
+    </script>
+<body style="background-color: rgb(254, 5, 6);">
+    <p style="position: absolute;top: 0px;left: 350px">
+        <img src = "豆腐おみくじ.png">
+    <p id="unsei" style="position: absolute;top: 200px;left: 250px ">あなたの運勢は...</p>
+    <p id="zyuken" style="position: absolute;top: 65px;left: 900px ">豆腐生Ver</p>
+    <div id="test"></div>
+    <div id = "whitebox"></div>
+    <script type="text/javascript">
+    </script>
+    
+    <script>
+     var imglist = new Array(
+    "chukichi.png","chukichi.png","chukichi.png","chukichi.png","chukichi.png","chukichi.png","chukichi.png","chukichi.png","chukichi.png","chukichi.png",
+    "daikichi.png","daikichi.png","daikichi.png","daikichi.png","daikichi.png","daikichi.png","daikichi.png",
+    "suekichi.png","suekichi.png","suekichi.png","suekichi.png","suekichi.png","suekichi.png","suekichi.png","suekichi.png",
+    "kichi.png","kichi.png","kichi.png","kichi.png","kichi.png","kichi.png","kichi.png",
+    "kyou.png","kyou.png","kyou.png","kyou.png","kyou.png","kyou.png",
+    "daikyou.png","daikyou.png","daikyou.png","daikyou.png",
+    );
+ var selectnum = Math.floor(Math.random() * imglist.length);
+ const img = new Image();
+ img.src=imglist[selectnum]
+img.style.position = 'absolute';
+img.style.left = '420px';
+img.style.top = '10px';
+document.body.appendChild(img);
+    </script>
+<p style="position: absolute;top: 250px;left: 210px">
+    <img src = "bengaku.png">
+</p>
+<p style="position: absolute;top: 250px;left: 500px">
+    <img src = "kenkou.png">
+</p>
+<p style="position: absolute;top: 250px;left: 790px">
+    <img src = "renai.png">
+</p>
+<script>
+var img1list = new Array(
+   "bengaku1.png",
+   "bengaku2.png",
+   "bengaku3.png",
+   "bengaku4.png",
+   "bengaku5.png",
+   "bengaku6.png",
+   "bengaku7.png",
+   "bengaku8.png",
+   );
+var selectnum1 = Math.floor(Math.random() * img1list.length);
+const img1 = new Image();
+img1.src=img1list[selectnum1]
+img1.style.position = 'absolute';
+img1.style.left = '110px';
+img1.style.top = '415px';
+document.body.appendChild(img1);
+</script>
+<script>
+    var img2list = new Array(
+       "健康1.png",
+       "健康2.png",
+       "健康3.png",
+       "健康4.png",
+       "健康5.png",
+       "健康6.png",
+       "健康7.png",
+       "健康8.png",
+       );
+    var selectnum2 = Math.floor(Math.random() * img2list.length);
+    const img2 = new Image();
+    img2.src=img2list[selectnum2]
+    img2.style.position = 'absolute';
+    img2.style.left = '395px';
+    img2.style.top = '415px';
+    document.body.appendChild(img2);
+    </script>
+<script>
+        var img3list = new Array(
+           "恋愛1.png",
+           "恋愛2.png",
+           "恋愛3.png",
+           "恋愛4.png",
+           "恋愛5.png",
+           "恋愛6.png",
+           "恋愛7.png",
+           "恋愛8.png",
+
+           );
+        var selectnum3 = Math.floor(Math.random() * img3list.length);
+        const img3 = new Image();
+        img3.src=img3list[selectnum3]
+        img3.style.position = 'absolute';
+        img3.style.left = '685px';
+        img3.style.top = '415px';
+        document.body.appendChild(img3);
+        </script>
+    <p style="position: absolute;top: 720px;left: 210px">
+        <img src = "kinnunn.png">
+    </p>
+    <p style="position: absolute;top: 720px;left: 500px">
+        <img src = "tabisaki.png">
+    </p>
+    <p style="position: absolute;top: 720px;left: 790px">
+        <img src = "yuuzin.png">
+<script>
+            var img4list = new Array(
+               "金運1.png",
+               "金運2.png",
+               "金運3.png",
+               "金運4.png",
+               "金運5.png",
+               "金運6.png",
+               "金運7.png",
+               "金運8.png",
+    
+               );
+            var selectnum4 = Math.floor(Math.random() * img4list.length);
+            const img4 = new Image();
+            img4.src=img4list[selectnum4]
+            img4.style.position = 'absolute';
+            img4.style.left = '110px';
+            img4.style.top = '890px';
+            document.body.appendChild(img4);
+            </script>
+<script>
+    var img5list = new Array(
+       "旅先1.png",
+       "旅先2.png",
+       "旅先3.png",
+       "旅先4.png",
+       "旅先5.png",
+       "旅先6.png",
+       "旅先7.png",
+       "旅先8.png",
+
+       );
+    var selectnum5 = Math.floor(Math.random() * img5list.length);
+    const img5 = new Image();
+    img5.src=img5list[selectnum5]
+    img5.style.position = 'absolute';
+    img5.style.left = '395px';
+    img5.style.top = '890px';
+    document.body.appendChild(img5);
+    </script>
+<script>
+    var img6list = new Array(
+       "友人1.png",
+       "友人2.png",
+       "友人3.png",
+       "友人4.png",
+       "友人5.png",
+       "友人6.png",
+       "友人7.png",
+       "友人8.png",
+
+       );
+    var selectnum6 = Math.floor(Math.random() * img6list.length);
+    const img6 = new Image();
+    img6.src=img6list[selectnum6]
+    img6.style.position = 'absolute';
+    img6.style.left = '685px';
+    img6.style.top = '890px';
+    document.body.appendChild(img6);
+    </script>
+     <p style="position: absolute;top: 1300px;left: 800px">
+    <img src = "tyuyui.png">
+
+                                                             
+
+     
+   
+
+    <script src="om.js">text</script>
+    <img src="" id="omikuzi">
+   
+
+
+
+    
+
+    <p id="text1"></p>
+   
+
+
+</body>
+</html>
